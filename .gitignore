@@ -1,0 +1,29 @@
+# Target & Build directories
+backend/target/
+app/build/
+app/.dart_tool/
+app/.pub/
+app/.pub-cache/
+
+# Maven & IDE files
+.idea/
+*.iml
+.vscode/
+.settings/
+.classpath
+.project
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Sensitive credentials
+backend/src/main/resources/db.properties
+
+# Flutter ephemeral / platform generated cache
+app/macos/Flutter/ephemeral/
+app/ios/Flutter/Flutter.podspec
+app/ios/Flutter/Flutter.framework
+app/ios/Flutter/Flutter.app
+app/android/.gradle/
+app/android/local.properties
